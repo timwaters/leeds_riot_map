@@ -16,7 +16,7 @@ $.fn.storymap = function(options) {
   //            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   //      }).addTo(map);
             L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
-                attribution: 'Tiles by <a href="http://stamen.com>Stamen></>" &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                attribution: 'Tiles by <a href="http://stamen.com">Stamen</a>. Map data &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
 
