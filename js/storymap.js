@@ -15,8 +15,9 @@ $.fn.storymap = function(options) {
   //          L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   //            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   //      }).addTo(map);
-            L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
-                attribution: 'Tiles by <a href="http://stamen.com">Stamen</a>. Map data &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+
+            L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
 
